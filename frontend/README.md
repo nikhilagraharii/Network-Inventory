@@ -1,16 +1,31 @@
-# React + Vite
+# 🌐 Network Inventory System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional full-stack application for managing network infrastructure and customer connectivity.
 
-Currently, two official plugins are available:
+## 🛠 Development Environment
+Because this is a full-stack project, I use a specialized environment for each layer:
+* **Backend**: Developed in **IntelliJ IDEA** (Spring Boot / Java)
+* **Frontend**: Developed in **VS Code** (React / Vite)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📁 Project Structure
+- **`backend/`**: Contains the Spring Boot API. Open this folder specifically in IntelliJ.
+- **`frontend/`**: Contains the React UI. Open this folder specifically in VS Code.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ⚙️ How to Run
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ☕ Backend (IntelliJ)
+1. Open IntelliJ IDEA.
+2. Select **Open** and choose the `backend` folder.
+3. Wait for Maven to load dependencies.
+4. Run the `NetworkInventoryApplication.java` file.
+
+### ⚛️ Frontend (VS Code)
+1. Open the `frontend` folder in VS Code.
+2. Open the terminal and run:
+   ```bash
+   npm install
+   npm run dev
